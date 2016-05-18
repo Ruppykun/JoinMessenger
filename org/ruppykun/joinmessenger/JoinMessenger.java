@@ -20,7 +20,7 @@ public class JoinMessenger extends JavaPlugin implements Listener
 	@EventHandler
 	public void JoinMessages(PlayerJoinEvent event)
 	{
-			event.setJoinMessage("こんにちは!" + event.getPlayer().getName());
+			event.setJoinMessage("こんにちは!" + event.getPlayer().getName() + "さん!");
 	}
 
 }
